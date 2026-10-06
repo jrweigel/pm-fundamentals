@@ -1,0 +1,5 @@
+# Optional evidence ledger for claims used in decisions, status reports, and outcome assessments.
+evidence: []
+# Classification: Observed | Estimate | Assumption | Recommendation
+# Evidence record fields: evidenceId, claim, classification, source, observedDate, denominator,
+# measurementMethod, freshnessAsOf, confidence, contradictoryEvidence, relatedDecisionIds.

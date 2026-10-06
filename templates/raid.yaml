@@ -1,0 +1,6 @@
+risks: []
+issues: []
+changes: []
+# Risk probability/severity: High | Medium | Low; score = probability * severity.
+# Issue state: New | Open/Unassigned | Open/Assigned | Closed | On Hold | Cancelled
+# Priority: High | Medium | Low; Change status: Proposed | Approved | Rejected | Deferred

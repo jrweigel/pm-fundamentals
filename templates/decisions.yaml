@@ -1,0 +1,8 @@
+# Append-only decision history. Do not silently rewrite a confirmed decision; append a superseding
+# entry and reference the earlier decisionId.
+decisions: []
+# Status: Proposed | Confirmed | Superseded | Withdrawn
+# Decision record fields: decisionId, date, status, decision, rationale, alternativesConsidered,
+# dissentOrConcerns, decisionOwner, evidenceRefs, nextReviewDate, supersedes.
+# Keep open questions separate from decisions; proposals are not commitments.
+openQuestions: [] # Entries should include question, context, owner, evidenceRefs, and dueDate.

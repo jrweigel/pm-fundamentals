@@ -1,0 +1,18 @@
+# Generated Office exports
+*.docx
+*.xlsx
+*.pptx
+
+# Local-only and secret material
+.env
+.env.*
+!.env.example
+secrets/
+private/
+
+# Common editor/runtime output
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/

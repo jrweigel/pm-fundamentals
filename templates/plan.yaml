@@ -1,0 +1,11 @@
+tasks: []
+# State: Not started | In progress | At risk | Blocked/delayed | Complete | Milestone
+# ConfirmationStatus: Unconfirmed | Confirmed
+# Task fields: taskId, tasksMilestones, deliverableOwner, outcomeId, startDate, endDate, state,
+# percentComplete, acceptanceCriteria, evidenceSource, confirmationStatus, dependencyUnblocked,
+# decisionId, notes, lastUpdated.
+# Link each plan item to a defined outcome. If work enables an outcome indirectly, link that
+# outcome; if it advances none, define a supporting outcome rather than leaving it orphaned.
+# The outcomeOwner is defined once in project.yaml and verifies results; do not duplicate it on
+# every task. Use one deliverableOwner, a concrete deliverable, and due date; do not turn tentative
+# language into a commitment until confirmed.

@@ -1,0 +1,77 @@
+projectName: ""
+projectSlug: ""
+projectManager: ""
+sponsors: []
+stakeholders: []
+teamMembers: []
+# Outcome source of truth. Assign one accountable outcomeOwner per outcome; that person verifies
+# results, while plan-item deliverableOwners produce specific work products.
+outcomes: []
+# Outcome fields: outcomeId, intendedOutcome, targetUsers, outcomeOwner, measure, baseline,
+# target, leadingIndicator, measurementSource, measurementMethod, targetDate, status.
+phase: Define
+statusColor: Unassessed # Unassessed | Green | Yellow | Red | Complete
+# Active-project RYG is Unassessed until project-specific criteria are agreed; set Complete only at close.
+# Confirm these project-specific thresholds with the decision owner during intake.
+# Keep RYG labels, but define what each color means for this project's outcomes and constraints.
+healthCriteria:
+  agreed: false
+  agreedDate: ""
+  decisionOwner: ""
+  statusAggregationRule: ""
+  reviewTrigger: ""
+  indicators: []
+# Each health indicator defines name, Green/Yellow/Red thresholds, source, measurementMethod,
+# baseline, and latestValue. Agree the statusAggregationRule with the decision owner.
+changeManagementActive: false
+changeLevel: Unassessed
+intake:
+  problem: ""
+  targetUsers: []
+  intendedOutcome: ""
+  nonGoals: []
+  decisionOwner: ""
+  reviewBoundaries: ""
+  hypothesis: ""
+  baseline: ""
+  leadingIndicator: ""
+  measurementSource: ""
+  measurementMethod: ""
+  firstDecisionGate:
+    date: ""
+    criteria: ""
+  dependencies:
+    access: []
+    integrations: []
+    governanceReviews: []
+    sharedResources: []
+  aiWorkflow:
+    applicable: false
+    boundedInitialCapability: ""
+    existingUserSurface: ""
+    permissionsAndRoutingValidation: ""
+    representativeMessyCases: ""
+    baselineAndAlternatives: ""
+    qualityCriteria: []
+    humanReviewAndOverride: ""
+    productionReadinessCriteria: ""
+    expansionEvidence: ""
+    stopPivotExpandCriteria: ""
+workTracking:
+  provider: ""
+  projectReference: ""
+  statusField: ""
+  statusValues: []
+  statusMapping: {}
+  ownershipBoundaries: []
+  canonicalStatusFile: ""
+  teamChannel: ""
+keyDates:
+  projectStart: ""
+  charterApproved: ""
+  planApproved: ""
+  kickoff: ""
+  projectClose: ""
+createdDate: ""
+lastUpdated: ""
+lastStatusReportDate: ""
