@@ -7,6 +7,7 @@ with Managing/Controlling and Change Management across the lifecycle.
 The repository is designed for software engineers, project managers, and AI agents. Markdown and
 YAML are the source of truth; DOCX, XLSX, and PPTX are disposable exports generated on demand.
 Artifacts are diffable, reviewable, searchable, and deployable from GitHub.
+This project is licensed under the [MIT License](LICENSE).
 
 ## Quick start
 
